@@ -33,13 +33,16 @@
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[spanish]{babel}
+%\usepackage[utf8]{inputenc}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Andrés Miguel} % Your first name
+\firstname{Andr\'es Miguel} % Your first name
 \familyname{Airabella} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
@@ -50,9 +53,9 @@
 %\fax{(000) 111 1113}
 \email{a.airabella@gmail.com}
 \homepage{http://www.unsl.edu.ar/~amairabe}{www.unsl.edu.ar/~amairabe} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{additional information}
+%\extrainfo{additional information}
 \photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"A witty and playful quotation" - John Smith}
+\quote{"Weniger, aber besser" - Dieter Rams}
 
 %----------------------------------------------------------------------------------------
 
@@ -64,22 +67,22 @@
 
 % To remove the cover letter, comment out this entire block
 
-\clearpage
+%\clearpage
 
-\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-\date{\today} % Letter date
-\opening{Dear Sir or Madam,} % Opening greeting
-\closing{Sincerely yours,} % Closing phrase
-\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-
-\makelettertitle % Print letter title
-
-\lipsum[1-2] % Dummy text
-\lipsum[4] % Dummy text
-
-\makeletterclosing % Print letter signature
-
-\newpage
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
 
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
@@ -91,104 +94,144 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Education}
+\section{Datos Personales}
 
-\cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
-\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
+\section{Formación}
 
-\section{Masters Thesis}
+\subsection{Estudios}
 
-\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
-\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
-\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+\cventry{2011--Actualidad}{Doctorado en Ciencias de la Ingenier\'ia}{Universidad Nacional de R\'io Cuarto}{Facultad de Ingeniería}{Tema de Tesis: 	Convertidores CC-CC tolerantes a fallas para aplicaciones en sistemas eléctricos híbridos}{Doctorado acreditado por la CONEAU resolución 023/07}
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+\cventry{2003--2009}{Ingenier\'ia Electr\'onica con Orientación en Sistemas Digitales (OSD)}{Universidad Nacional de San Luis}{Facultad de Ciencias Físico Matemáticas y Naturales}{Promedio: 8.83 (ocho con ochenta y tres), con y sin aplazos}{}
 
-\section{Experience}
+\cventry{1997--2001}{Perito Administrativo Contable con orientación en informática}{Colegio San Rafael, 28 P.S. Hermanos Maristas}{San Rafael. Mendoza}{}{}
 
-\subsection{Vocational}
+\subsection{Idiomas}
 
-\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
-\newline{}\newline{}
-Detailed achievements:
-\begin{itemize}
-\item Learned how to make amazing coffee
-\item Finally determined the reason for \textsc{PC LOAD LETTER}:
-\begin{itemize}
-\item Paper jam
-\item Software issues:
-\begin{itemize}
-\item Word not sending the correct data to printer
-\item Windows trying to print in letter format
-\end{itemize}
-\item Coffee spilled inside printer
-\end{itemize}
-\item Broke the office record for number of kitten pictures in cubicle
-\end{itemize}}
+\cvitem{Inglés}{Nivel 4 cursado y aprobado en escuela de idiomas I.A.I. San Rafael, Mendoza. Inglés I y II, correspondientes a la carrera de Ing. Electrónica con OSD. Buen habla, lectura, interpretación de textos y escritura}
+\cvitem{Castellano}{Idioma nativo}
 
-%------------------------------------------------
+\subsection{Cursos de Posgrado}
 
-\cventry{2011--2012}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+\cvitem{2012}{MODELADO Y CONTROL DE MÁQUINAS ELÉCTRICAS (Ding-14). Dictado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Docentes Dr. Ing. Guillermo O. García y Dr. Ing. Pablo M. De la Barrera Duración 60 horas. Fecha: 01 de Abril de 2012 a 10 de Julio de 2012. Certificado: 27 de Mayo de 2013. }
+\cvitem{2012}{CONVERTIDORES CONMUTADOS (Cod. 2467). Organizado por el Instituto en Investigaciones en Ingeniería Eléctrica, Universidad Nacional de Sur. Docentes Responsables: Dres. A. Oliva – M. D’Amico. Duración 80 horas.  Aprobado el 28 de Junio de 2012. Certificado: 30 de Octubre de 2012. }
+\cvitem{2010}{ELECTRÓNICA DE POTENCIA (Dinge-06). Dictado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Docentes Dr. Ing. Guillermo O. García y Dr. Ing. Germán Oggier Duración 60 horas. Fecha: 01 de Septiembre de 2010 a 17 de Diciembre de 2010. Certificado: 20 de Marzo de 2012.}
+\cvitem{2012}{CONTROL LINEAL AVANZADO. Dictado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Docentes Dr. Ing. Cristian de Ángelo, asistente: Mg. Lic. Laura Pérez. Duración 60 horas. Fecha: 11 de Septiembre de 2012 a 11 de Diciembre de 2012. Certificado: 27 de Mayo de 2013.}
+\cvitem{2012}{TEORÍA DE LA POTENCIA INSTANTÁNEA Y APLICACIONES. Universidad Nacional de Río Cuarto. Segundo semestre 2012. Responsables: Dr. Ing. G. O. García y Dr. Ing. G.G. Oggier. Duración 60 horas. Aprobado. 03 de Noviembre de 2014.}
+\cvitem{2013}{ELECTRÓNICA DE POTENCIA EN MICRORREDES CON ALTA PENETRACIÓN DE ENERGÍA RENOVABLE. (Ding-26) Universidad Nacional de Río Cuarto. 3 de Septiembre al 30 de Diciembre de 2013. Responsables: Dr. Ing. Denizar C. Martins y Dr. Ing. Guillermo. O. García. Duración 60 horas. Aprobado. Certificado: 29 de Diciembre de 2014. }
+\cvitem{2015}{LABORATORIO DE IMPLEMENTACIÓN DE PROTOTIPOS EXPERIMENTALES. Universidad Nacional de Río Cuarto. Responsables: Dr. Ing. Germán G. Oggier y Dr. Ing. Guillermo. O. García. Duración 80 horas. Aprobado. 2015. }
 
-%------------------------------------------------
+\subsection{Seminarios de Posgrado}
 
-\subsection{Miscellaneous}
+\cvitem{2012}{SEMINARIO DE INVESTIGACIÓN EN CONTROL Y CONVERSIÓN DE LA ENERGÍA. Organizado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Duración 40 horas. Fecha: 25 de Abril de 2012 a10 de Diciembre de 2012. Certificado: 23 de Mayo de 2013. }
+\cvitem{2011}{SEMINARIO DE INVESTIGACIÓN EN CIENCIAS DE LA INGENIERÍA. Organizado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Duración 40 horas. Fecha: 06 de Abril de 2011 a06 de Septiembre de 2011. Certificado: 20 de Noviembre de 2012. }
+\cvitem{2011}{SEMINARIO DE INVESTIGACIÓN EN CONTROL Y CONVERSIÓN DE LA ENERGÍA. Organizado por la Facultad de Ingeniería, Universidad Nacional de Río Cuarto. Fecha23 de Marzo de 2011a 18 de Diciembre de 2011. Duración 40 horas. Certificado: 11 de Mayo de 2012. }
 
-\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
 
-\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+\subsection{Cursos de capacitación y perfeccionamiento}
 
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
+\cvitem{2018}{Curso: “Diseño Avanzado de sistema embebidos en lógica programable: Zynq APSoC, Vivado HLS y SDSoC”. Crédito Horario: 60hs.  LEIS. Electra Training. 19 al 23 de Marzo de 2018. Universidad Nacional de San Luis. San Luis, Argentina. }
+\cvitem{2017}{Curso: “Síntesis de Alto Nivel para FPGAs con Vivado-HLS”. LEIS. Electra Training. 11 y 12 de Abril de 2017. LEIS. Universidad Nacional de San Luis. San Luis, Argentina. }
+\cvitem{2017}{Curso: Accelerating FPGA Desing (FPGA Competence). Bitbis AS (Norway).  8 y 9 de Mayo de 2017, Satellogic S.A. Buenos Aires, Argentina. }
+\cvitem{2017}{Curso: Advanced VHDL Verification – Made Simple (FPGA Competence). Bitbis  AS (Norway). 9 al 11 de Mayo de 2017, Satellogic S.A. Buenos Aires, Argentina. }
 
-\section{Awards}
+\section{Antecedentes laborales en docencia}
 
-\cvitem{2011}{School of Business Postgraduate Scholarship}
-\cvitem{2010}{Top Achiever Award -- Commerce}
+\subsection{Categorización Docente Investigador}
+
+\cvitem{}{Docente - Investigador “Categoría V (cinco)”.}
+
+\subsection{Docencia de Grado}
+
+\cvitem{2017--presente}{Profesor Adjunto, Dedicación Exclusiva, Carácter Interino. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 01 de Septiembre de 2017 al presente. Responsable de materias: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales), Audio y Video (Tecnicatura en Telecomunicaciones) y Producción Multimedial (Tecnicatura en Telecomunicaciones).}
+\cvitem{2016--2017}{Profesor Adjunto, Dedicación Exclusiva, Carácter Interino. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 14 de Abril de 2016 al 30 de Agosto de 2017. Responsable de materias: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales), Audio y Video (Tecnicatura en Telecomunicaciones) y Producción Multimedial (Tecnicatura en Telecomunicaciones).}
+\cvitem{2013--2016}{Profesor Adjunto, Dedicación Simple, Carácter Temporario. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 22 de Julio de 2013 al 13 de Abril de 2016. Responsable de materias: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales), Audio y Video (Tecnicatura en Telecomunicaciones) y Producción Multimedial (Tecnicatura en Telecomunicaciones).}
+\cvitem{2012--presente}{Ayudantía de Primera, Dedicación Simple, Carácter Efectivo. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 01 de Noviembre de 2012 al presente. En licencia sin goce de haberes por incompatibilidad. Responsable de materias: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales), Audio y Video (Tecnicatura en Telecomunicaciones) y Producción Multimedial (Tecnicatura en Telecomunicaciones).}
+\cvitem{2011--2012}{Ayudantía de Primera, Dedicación Simple, Carácter Temporario. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 1 de Abril de 2011 al 30 de Octubre de 2012. Responsable de Trabajos Prácticos: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales) y Diseño de Sistemas Digitales (Ing. Electrónica con Orientación en Sistemas Digitales). }
+\cvitem{2010--2011}{Ayudantía de Primera, Dedicación Exclusiva, Carácter Temporario. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 12 de Marzo de 2010 al 31 de Marzo de 2011. Responsable de Trabajos Prácticos: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales) y Diseño de Sistemas Digitales (Ing. Electrónica con Orientación en Sistemas Digitales).}
+\cvitem{2009-2010}{Ayudantía de Segunda, Dedicación Simple, Carácter Temporario. Facultad de Ciencias Físico Matemáticas y Naturales. Universidad Nacional de San Luis. Fecha: 09 de Junio de 2009 al 11 de Marzo de 2010. Ayudante de Trabajos Prácticos: Arquitectura de Computadoras (Ing. Electrónica con Orientación en Sistemas Digitales) y Diseño de Sistemas Digitales (Ing. Electrónica con Orientación en Sistemas Digitales).}
+
+\subsection{Docencia de Posgrado}
+
+\cvitem{2013}{ELECTRÓNICA DE POTENCIA. Dictado por la Facultad de Ciencias Físico Matemáticas y Naturales, Universidad Nacional de San Luis. Docentes Dr. Ing. Germán Oggier. Auxiliar: Ing. Andrés Miguel Airabella. Responsable: Ing. Cristian Ariel Falco.  Duración 60 horas. Fecha: 01 de Noviembre de 2013 a 30 de Noviembre de 2013.}
+
+\subsection{Evaluación de Trabajos Finales de Grado}
+
+\cvitem{2016}{“Redes inalámbricas para el desarrollo de comunidades rurales digitales en el distrito de Yauya”. Autor: Ada Luz Caballero Sifuentes. Director: Ing. Alfredo Debattista. Carrera: Ingeniería Electrónica con Orientación en  Sistemas Digitales. UNSL. Diciembre 2016. }
+\cvitem{2016}{“Sistema de medición con celda de carga, con excitación de Corriente Alterna, basado en amplificador tipo lock-in”. Autor: Laura Beatriz Adaro. Director: Carlos Federico Sosa Páez. Carrera: Ingeniería Electrónica con Orientación en  Sistemas Digitales. UNSL. Diciembre 2016. }
+\cvitem{2011}{“Procesamiento de señales acústicas utilizando lógica programable”. Autor: Felix Leonardo Garro Martínez. Director: Diego Esteban Costa. Carrera: Ingeniería Electrónica con Orientación en  Sistemas Digitales. UNSL. 16 de Septiembre 2011.}
+\cvitem{2011}{“Implementación de funciones básicas del amplificador Lock-in en FPGA”. Autor: Martínez Guevara, Layla María. Director: Ing. Peláez, Esteban Maximiliano. Carrera: Ingeniería Electrónica con Orientación en  Sistemas Digitales. UNSL. 19 de Diciembre de 2011.}
+
+\subsection{Integrante de tribunales examinadores en concursos docentes}
+
+\cvitem{2018}{Titular en Tribunal para concurso de cargo de AUXILIAR DE, PRIMERA CATEGORÍA, dedicación SIMPLE, carácter SUPLENTE con destino al ÁREA DE ELECTRÓNICA Y MICROPROCESADORES del Departamento de Física, Universidad Nacional de San Luis. 28 de marzo de 2018.}
+\cvitem{2014}{Titular en Tribunal para concurso de cargo de AUXILIAR DE, PRIMERA CATEGORÍA, dedicación SIMPLE, carácter INTERINO con destino al ÁREA DE ELECTRÓNICA Y MICROPROCESADORES del Departamento de Física, Universidad Nacional de San Luis. 01 de septiembre de 2014.}
+
+\subsection{Dirección y Co-Dirección de Becas y Trabajos Finales}
+
+\cvitem{2016--2017}{Proyecto Final de Carrera: Alumno: Rodrigo Agustín Perna. Título del Plan de Trabajo: Sistema de supervisión y control en FPGA para un cargador solar de baterías. Año 2016-2017. En ejecución. Rol: Director. }
+\cvitem{2016-2017}{Beca de Investigación del CIN (Consejo Interuniversitario Nacional): Alumno: Rodrigo Agustín Perna. Título del Plan de Trabajo: Sistema de supervisión y control en FPGA para un cargador solar de baterías. Año 2016-2017. En ejecución. Rol: Director. }
+\cvitem{2016-2017}{Proyecto Final de Carrera: Alumno: Emiliano Álvarez. Título del Plan de Trabajo: Diseño de un Banco de Ensayos para Circuitos de Activación de Transistores de Potencia. Año 2016-2017. Rol: Director. }
+\cvitem{2016--presente}{Proyecto Final de Carrera: Alumno: Rodrigo Sánchez. Título del Plan de Trabajo: Descripción en HDL de un detector de ángulo y secuencia positiva en sistemas eléctricos trifásicos. Año 2016-2017. En ejecución. Rol: Director.}
+\cvitem{2012--2014}{Beca TIC 2012 y Proyecto Final de Carrera: Alumno: María Julia Xacur. Título del Plan de Trabajo: Desarrollo de instrumental específico para medir fuerza de ruptura de sólidos. Año 2012-2014. Finalizado. }
+\cvitem{2012--2013}{Beca TIC 2012: Alumno: Gerardo Galo. Título del Plan de Trabajo: Diseño de una fuente para iluminación a LED robusta, de baja potencia. Año 2012-2013. Finalizado. }
+\cvitem{2012--2013}{Co-Dirección de Trabajo Final de Carrera, Alumno: Enzo Belpoliti. Título del Plan de Trabajo: Implementación de la Técnica de Modulación SVPWM para Control de Inversores Trifásicos.  Año 2012-2013. Finalizado. }
+
+\subsection{Dirección y Co-Dirección de Estancias de Investigación}
+\cvitem{2012}{Dirección de Beca “Verano de la Ciencia, Universidad Autónoma San Luis Potosí 2012”. Alumno: Oscar Zamarripa. Título del Trabajo: “Operación de un Convertidor CC-CC con Puentes Duales Activos en modo Forward para el estudio de fallas en semiconductores”. Lugar: “Grupo de Electrónica Aplicada – Facultad de Ingeniería– Universidad Nacional de Río Cuarto. Becario de Intercambio México-Argentina. Mayo a Junio de 2012.}
+\cvitem{2013--2014}{Dirección de Beca de Intercambio “UNSL-Hochschule Bonn Rhein Sieg”. Alumno: Sven Stockhausen. Título del Trabajo: “Diseño de un instrumento para medir la fuerza de ruptura de sólidos”. Lugar: Laboratorio de Electrónica, Investigación y Servicios – Universidad Nacional de San Luis. Becario de Intercambio Alemania-Argentina. Octubre de 2013 a Febrero de 2014.}
+
+\section{Antecedentes laborales en el sector privado}
+
+\cvitem{2017--presente}{Mayo de 2017 al presente: Satellogic S.A. Ingeniero de Desarrollo en HDL (Hardware Description Language). }
+\cvitem{2016--2017}{Agosto 2016 a Abril de 2017: Asesor del Gobierno de la Provincia de San Luis en Energías Renovables y Eficiencia Energética. Programa de Energías Renovables y Eficiencia Energética, Ministerio de Medio Ambiente, Campo y Producción. }
+\cvitem{2009--2010}{Junio de 2009 a Abril de 2010: Becario del Grupo de Estudios Ambientales, para soporte en desarrollo de equipos electrónicos de medición de variables ambientales.}
+\cvitem{2008--2009}{Octubre 2008 a Marzo de 2009: Diseño de módulos/macros digitales (IP Cores) optimizados para bajo consumo de potencia en lenguajes de descripción de hardware para la empresa MGB Design SRL, a su vez para Actel Corp (Ahora Microsemi).}
+
+
+\section{Antecedentes en Investigación Científica y Desarrollo Tecnológico}
+
+\section{Producción en Investigación Científica}
+
+\section{Premios y distinciones}
+
+%\cvitem{2008}<Abanderado año 2008, portador de bandera provincial. 
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
 
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Computer skills}
+\section{Herramias informáticas y de programación}
 
-\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
-\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
-\cvitem{Advanced}{Computer Hardware and Support}
 
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
+\section{Experiencia en Liderazgo}
 
-\section{Communication Skills}
+\subsection{IEEE Young Professionals Programm}
 
-\cvitem{2010}{Oral Presentation at the California Business Conference}
-\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+\cvitem{2016}{Presidente de IEEE Young Professionals Program de la Sección Argentina.}
+\cvitem{2015}{Vicepresidente de la Sección Argentina de IEEE Young Professionals Program.}
+\cvitem{2014}{Secretario de la Sección Argentina de IEEE Young Professionals Program.}
 
-%----------------------------------------------------------------------------------------
-%	LANGUAGES SECTION
-%----------------------------------------------------------------------------------------
+\subsection{Rama Estudiantil del IEEE}
 
-\section{Languages}
+\cvitem{2011-2012}{Miembro de la Rama Estudiantil del IEEE de la Universidad Nacional de Río Cuarto.}
+\cvitem{2007}{Former President 2007. Rama Estudiantil IEEE UNSL}
+\cvitem{2006}{Presidente 2006. Rama Estudiantil IEEE UNSL. Organizador “Reunión Nacional de Ramas Estudiantiles del IEEE 2006”. Ciudad de San Luis, del 16 al 18 de Noviembre de 2006.}
+\cvitem{2005}{Coordinador de la Comisión Sitio Web de la Rama Estudiantil IEEE San Luis.}
 
-\cvitemwithcomment{English}{Mothertongue}{}
-\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
-\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+%\cvitemwithcomment{English}{Mothertongue}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
 
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Interests}
+\section{Intereses}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
 
 %----------------------------------------------------------------------------------------
 
