@@ -5,7 +5,7 @@ PDF_LATEX_OPTIONS ?= -output-directory=$(OUTPUT_DIR)
 clean: 
 	rm -rf $(CURDIR)/output/
 
-pdf: 
+pdf: clean
 	mkdir $(CURDIR)/output/
 	pdflatex $(PDF_LATEX_OPTIONS) $(CV_NAME)
 
