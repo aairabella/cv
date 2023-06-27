@@ -9,15 +9,16 @@ clean:
 	rm -rf $(OUTPUT_DIR)
 	rm -rf $(OUTPUT_DIR_EN)
 
-pdf: clean
+pdf: 
 	mkdir $(OUTPUT_DIR)
 	pdflatex $(PDF_LATEX_OPTIONS) $(CV_NAME)
 
-en: clean
+en: 
 	mkdir $(OUTPUT_DIR_EN)
 	pdflatex $(PDF_LATEX_OPTIONS_EN) $(CV_NAME_EN)
 
-all: pdf
+all:  
+	pdf
 	en
 
 help::
